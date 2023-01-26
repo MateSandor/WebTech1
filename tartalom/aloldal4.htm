@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aloldal.css">
+    <script src="../JavaScripts/html-include.js" type="text/javascript"></script>
+    <script src="../JavaScripts/form.js"></script>
+    <title>Picker</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-12">
+                <nav>
+                    <a href="../index.html">Főoldal</a>
+                    <a href="aloldal1.htm">KTM</a>      
+                    <a href="aloldal2.htm">Honda</a>           
+                    <a href="aloldal3.htm">Yamaha</a>
+                </nav>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="col-xxl-12">
+                <section>
+                <h1> Listába felvétel (Gridbox) </h1>
+                </section>
+            </div>
+
+            <div class="row">
+                <div class="col-xxl-6"> 
+                    <section>
+                        <p>Név:</p>
+                        <input type ="text" id="myInput"  placeholder="Ide irj" ><br>
+                        <p>Válaszd ki a színt:</p>
+                        <input type="color" id="color"><br>
+                        <p>Válaszd ki a dátumot:</p>
+                        <input type="date" id="date"><br>
+                        <p>Ne felejtsd el kipipálni a dobozt!</p>
+                        <input type="checkbox" id="checkboxid"><br>
+                        <button class="button" type="button" onclick="newElement()">
+                            <h3>Listához hozzáadás</h3>
+                        </button>
+                    </section>
+                </div>
+                <div class="col-xxl-6"> 
+                    <section  id="forminfo"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xxl-12">
+                    <footer>
+                        <section>Sándor Máté ©</section>
+                    </footer>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
